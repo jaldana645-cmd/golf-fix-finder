@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Golf Fix Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Golf Swing Fix Finder</h1>
+
+    <select id="issue">
+      <option value="">Select your issue</option>
+      <option value="Slice">Slice</option>
+      <option value="Hook">Hook</option>
+      <option value="Push">Push</option>
+      <option value="Pull">Pull</option>
+      <option value="Chunk">Chunk</option>
+      <option value="Top">Top</option>
+      <option value="Loss of Distance">Loss of Distance</option>
+      <option value="Too Much Spin">Too Much Spin</option>
+    </select>
+
+    <button onclick="getFix()">Find Fix</button>
+
+    <div id="result"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
