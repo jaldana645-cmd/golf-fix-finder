@@ -25,7 +25,8 @@ body {
   color: #1a1a1a;
   padding: 40px;
   border-radius: 16px;
-  width: 440px;
+  width: 90%;
+  max-width: 440px;
 
   text-align: center;
 
@@ -171,7 +172,7 @@ li {
   display: block;
 }
 
-/* play button */
+/* ===== PLAY BUTTON (NO TEXT, PURE CSS) ===== */
 .play-button {
   position: absolute;
   top: 50%;

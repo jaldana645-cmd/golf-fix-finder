@@ -67,6 +67,7 @@ function getFix() {
 
   const data = golfData[issue];
 
+  // YouTube thumbnail
   const thumbnail = `https://img.youtube.com/vi/${data.video}/hqdefault.jpg`;
 
   result.innerHTML = `
@@ -88,7 +89,7 @@ function getFix() {
       <a href="${data.link}" target="_blank" class="video-link">
         <div class="video-thumbnail">
           <img src="${thumbnail}" alt="Video thumbnail">
-          <div class="play-button">▶</div>
+          <div class="play-button"></div>
         </div>
       </a>
     </div>
