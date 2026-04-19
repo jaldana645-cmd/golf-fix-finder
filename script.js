@@ -66,8 +66,6 @@ function getFix() {
   }
 
   const data = golfData[issue];
-
-  // YouTube thumbnail
   const thumbnail = `https://img.youtube.com/vi/${data.video}/hqdefault.jpg`;
 
   result.innerHTML = `
